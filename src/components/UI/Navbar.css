@@ -1,0 +1,27 @@
+.navbar {
+  margin-left: 50%;
+  width: 550px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(57, 14, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 14, 64, 1) 0%,
+    rgba(190, 43, 157, 1) 93%
+  );
+  color: white;
+}
+.navbar img {
+  width: 31px;
+  height: 26px;
+}
+.left {
+  display: flex;
+  gap: 1vh;
+  margin-left: 3vh;
+}
+.right {
+  margin-right: 3vh;
+}
