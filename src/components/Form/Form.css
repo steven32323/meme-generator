@@ -1,8 +1,24 @@
 .form {
   display: flex;
   gap: 10vh;
+  align-items: center;
+  flex-direction: column;
 }
 .text-input {
   border: 1px solid grey;
   border-radius: 4px;
+}
+button {
+  width: 477px;
+  background: rgb(57, 14, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 14, 64, 1) 0%,
+    rgba(190, 43, 157, 1) 93%
+  );
+  color: white;
+}
+.form--input {
+  display: flex;
+  gap: 2vh;
 }
